@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "593255195270",
+    "firebase_url": "https://cwsfinancepetrojet.firebaseio.com",
+    "project_id": "cwsfinancepetrojet",
+    "storage_bucket": "cwsfinancepetrojet.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:593255195270:android:44dee32e5d189761",
+        "android_client_info": {
+          "package_name": "com.example.kesho.cwsfinancepetrojet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "593255195270-b9604p8k6em1nofbikt8qvrc0l1ca03a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.kesho.cwsfinancepetrojet",
+            "certificate_hash": "0e2a98170e1abd3db33cbc4c65b7cb09c3a2eeb7"
+          }
+        },
+        {
+          "client_id": "593255195270-98vr2nentl5ol9gsgoesqnr3bqphl10h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAtF0-FDfQAwi6wHwAqQq7Sbul4GzJkQdE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "593255195270-98vr2nentl5ol9gsgoesqnr3bqphl10h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:593255195270:android:7a978a03390b3cd9",
+        "android_client_info": {
+          "package_name": "com.example.kesho.petrojetfinancemanager"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "593255195270-2a409sn81p44m69epm391042hflnugf9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.kesho.petrojetfinancemanager",
+            "certificate_hash": "0e2a98170e1abd3db33cbc4c65b7cb09c3a2eeb7"
+          }
+        },
+        {
+          "client_id": "593255195270-98vr2nentl5ol9gsgoesqnr3bqphl10h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAtF0-FDfQAwi6wHwAqQq7Sbul4GzJkQdE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "593255195270-98vr2nentl5ol9gsgoesqnr3bqphl10h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

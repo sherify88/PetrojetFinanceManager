@@ -1,0 +1,213 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.kesho.petrojetfinancemanager.CreditDailyComputingFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        app:cardBackgroundColor="#8b8378">
+        <LinearLayout
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:background="#eedfcc">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center">
+
+
+                <TextView
+                    android:layout_gravity="right"
+                    android:gravity="right"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:id="@+id/NameIdForListItem"
+                    android:textSize="20dp"
+                    android:textColor="#00008b"
+
+                    />
+
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:id="@+id/dateView"
+                    android:textColor="#00008b"
+                    android:layout_marginRight="10dp"
+                    android:textSize="20dp"
+                    android:text="  اليوم     :"
+
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center">
+
+
+                <TextView
+                    android:layout_gravity="right"
+                    android:gravity="right"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:id="@+id/totalAmount"
+                    android:textSize="20dp"
+
+                    />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:id="@+id/totalId"
+                    android:textColor="#000000"
+                    android:layout_marginRight="10dp"
+                    android:textSize="20dp"
+                    android:text="  الاجمالي     :"
+
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:gravity="center">
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/computeCreditResultBtn"
+                    android:layout_marginRight="40dp"
+                    android:text="تسجيل الرصيد"/>
+                <EditText
+
+                    android:inputType="number"
+                    android:maxLines="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/dayCreditEditText"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/dayCreditTxtView"
+                    android:textStyle="bold"
+                    android:textColor="#030303"
+                    android:textSize="20dp"
+                    android:text="رصيد اليوم   :  "/>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/registeredCreditId"
+                    android:textStyle="bold"
+                    android:textColor="#030303"
+                    android:textSize="20dp"
+                    android:text="تم تسجيل رصيد اليوم    = 0  "/>
+
+
+            </LinearLayout>
+   <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:gravity="center">
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/resultExpression"
+                    android:layout_marginRight="30dp"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:text=""/>
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/creditResult"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:text=""/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/creditResultTxtView"
+                    android:textStyle="bold"
+                    android:textColor="#030303"
+                    android:textSize="20dp"
+                    android:text="الناتج   :  "/>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center">
+
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/vendorOrdersView"
+                    android:textColor="#000000"
+                    android:layout_marginRight="10dp"
+                    android:textSize="15dp"
+                    android:text="  اجمالي شيكات طلبات الموردين     = 0"
+
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center">
+
+
+
+
+                <Button
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/urgentChecksView"
+                    android:textColor="#000000"
+                    android:layout_marginRight="10dp"
+                    android:textSize="15dp"
+                    android:text="اجمالي الشيكات المستعجل عليها  = 0"
+
+                    />
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

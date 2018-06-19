@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    android:orientation="vertical"
+    >
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_alignParentRight="true"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="  اسم الشركة :"
+        android:id="@+id/orderId"/>
+    <TextView
+
+        android:id="@+id/docpo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="......."
+        android:layout_marginRight="50dp"
+        android:textSize="20dp"
+
+        />
+    <TextView
+        android:layout_marginRight="5dp"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/orderId"
+        android:textSize="20dp"
+        android:text="القيمة : "
+        android:id="@+id/kema"/>
+    <TextView
+        android:layout_below="@+id/docpo"
+        android:id="@+id/checkamount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="......."
+        android:textSize="20dp"
+
+        />
+    <TextView
+        android:layout_marginRight="5dp"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/kema"
+        android:textSize="20dp"
+        android:text="رقم الشيك : "
+        android:id="@+id/checkNOiDtxtVw"/>
+    <TextView
+        android:layout_below="@+id/checkamount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="......."
+        android:textSize="20dp"
+        android:id="@+id/checkNo"
+
+        />
+    <TextView
+        android:layout_marginRight="5dp"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/checkNOiDtxtVw"
+        android:textSize="20dp"
+        android:text="تاريخ الطلب : "
+        android:id="@+id/orderDateView"/>
+    <TextView
+        android:layout_below="@+id/checkNo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="......."
+        android:textSize="20dp"
+        android:id="@+id/orderDateCode"
+
+        />
+    <TextView
+        android:layout_marginRight="5dp"
+        android:id="@+id/delayViewMsg"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/orderDateView"
+        android:textSize="20dp"
+        android:text="رسالة التاجيل : "/>
+    <TextView
+        android:layout_below="@+id/orderDateCode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="......."
+        android:textSize="20dp"
+        android:id="@+id/viewDelayMsgCode"
+
+        />
+    <TextView
+        android:layout_marginRight="5dp"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/delayViewMsg"
+        android:textSize="20dp"
+        android:text="تاريخ ارسال التأجيل : "/>
+    <TextView
+        android:layout_below="@+id/viewDelayMsgCode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="........"
+        android:textSize="20dp"
+        android:id="@+id/delayMsgDate"
+
+        />
+</RelativeLayout>
+
+<LinearLayout
+    android:layout_gravity="right"
+    android:gravity="right"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="#98f5ff">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="طلب مفتوح"
+        android:id="@+id/responseConfirmationBtnId"/>
+
+
+
+</LinearLayout>
+
+
+</LinearLayout>

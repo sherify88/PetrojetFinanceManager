@@ -1,0 +1,390 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.kesho.petrojetfinancemanager.AllChecksSheetFragment"
+    android:background="#f5f5dc"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+  <LinearLayout
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal"
+      android:layout_gravity="right">
+
+
+      <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="match_parent"
+          android:orientation="vertical">
+
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="تحت حساب"
+              android:textSize="15dp"
+              />
+          <TextView
+              android:layout_marginTop="5dp"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textSize="15dp"
+              android:id="@+id/januaryDp"
+              />
+  <TextView
+              android:layout_marginTop="5dp"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textSize="15dp"
+              android:id="@+id/februaryDp"
+              />
+  <TextView
+              android:layout_marginTop="5dp"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textSize="15dp"
+              android:id="@+id/marchDp"
+              />
+  <TextView
+              android:layout_marginTop="5dp"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textSize="15dp"
+              android:id="@+id/aprilDp"
+              />
+  <TextView
+              android:layout_marginTop="5dp"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textSize="15dp"
+              android:id="@+id/mayDp"
+              />
+  <TextView
+              android:layout_marginTop="5dp"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textSize="15dp"
+              android:id="@+id/juneDp"
+              />
+  <TextView
+              android:layout_marginTop="5dp"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textSize="15dp"
+              android:id="@+id/julyDp"
+              />
+  <TextView
+              android:layout_marginTop="5dp"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textSize="15dp"
+              android:id="@+id/augustDp"
+              />
+  <TextView
+              android:layout_marginTop="5dp"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textSize="15dp"
+              android:id="@+id/septemberDp"
+              />
+  <TextView
+              android:layout_marginTop="5dp"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textSize="15dp"
+              android:id="@+id/octoberDp"
+              />
+  <TextView
+              android:layout_marginTop="5dp"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textSize="15dp"
+              android:id="@+id/novemberDp"
+              />
+<TextView
+              android:layout_marginTop="5dp"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textSize="15dp"
+              android:id="@+id/decemberDp"
+              />
+
+
+      </LinearLayout>
+
+      <LinearLayout
+          android:layout_marginLeft="30dp"
+          android:layout_width="wrap_content"
+          android:layout_height="match_parent"
+          android:orientation="vertical">
+
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="اجمالي قيمة الشيكات"
+              android:textSize="15dp"
+              />
+          <TextView
+              android:layout_marginTop="5dp"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textSize="15dp"
+              android:id="@+id/januaryTotal"
+              />
+  <TextView
+              android:layout_marginTop="5dp"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textSize="15dp"
+              android:id="@+id/februaryTotal"
+              />
+  <TextView
+              android:layout_marginTop="5dp"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textSize="15dp"
+              android:id="@+id/marchTotal"
+              />
+  <TextView
+              android:layout_marginTop="5dp"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textSize="15dp"
+              android:id="@+id/aprilTotal"
+              />
+  <TextView
+              android:layout_marginTop="5dp"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textSize="15dp"
+              android:id="@+id/mayTotal"
+              />
+  <TextView
+              android:layout_marginTop="5dp"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textSize="15dp"
+              android:id="@+id/juneTotal"
+              />
+  <TextView
+              android:layout_marginTop="5dp"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textSize="15dp"
+              android:id="@+id/julyTotal"
+              />
+  <TextView
+              android:layout_marginTop="5dp"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textSize="15dp"
+              android:id="@+id/augustTotal"
+              />
+  <TextView
+              android:layout_marginTop="5dp"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textSize="15dp"
+              android:id="@+id/septemberTotal"
+              />
+  <TextView
+              android:layout_marginTop="5dp"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textSize="15dp"
+              android:id="@+id/octoberTotal"
+              />
+  <TextView
+              android:layout_marginTop="5dp"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textSize="15dp"
+              android:id="@+id/novemberTotal"
+              />
+<TextView
+              android:layout_marginTop="5dp"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textSize="15dp"
+              android:id="@+id/decemberTotal"
+              />
+
+
+      </LinearLayout>
+
+      <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="match_parent"
+          android:orientation="vertical">
+
+      <TextView
+          android:layout_marginLeft="15dp"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="الشهر"
+          android:textSize="15dp"
+          />
+          <TextView
+              android:textSize="15dp"
+              android:layout_marginTop="5dp"
+          android:layout_marginLeft="15dp"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="يناير"/>
+
+ <TextView
+     android:textSize="15dp"
+
+     android:layout_marginTop="5dp"
+          android:layout_marginLeft="15dp"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="فبراير"/>
+
+ <TextView
+     android:textSize="15dp"
+
+     android:layout_marginTop="5dp"
+          android:layout_marginLeft="15dp"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="مارس"/>
+
+ <TextView
+     android:textSize="15dp"
+
+     android:layout_marginTop="5dp"
+          android:layout_marginLeft="15dp"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="ابريل"/>
+
+ <TextView
+     android:textSize="15dp"
+
+     android:layout_marginTop="5dp"
+          android:layout_marginLeft="15dp"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="مايو"/>
+
+ <TextView
+     android:textSize="15dp"
+
+     android:layout_marginTop="5dp"
+          android:layout_marginLeft="15dp"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="يونيو"/>
+
+ <TextView
+     android:textSize="15dp"
+
+     android:layout_marginTop="5dp"
+          android:layout_marginLeft="15dp"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="يوليو"/>
+
+ <TextView
+     android:textSize="15dp"
+
+     android:layout_marginTop="5dp"
+          android:layout_marginLeft="15dp"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="اغسطس"/>
+
+ <TextView
+     android:textSize="15dp"
+
+     android:layout_marginTop="5dp"
+          android:layout_marginLeft="15dp"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="سبتمبر"/>
+
+ <TextView
+     android:textSize="15dp"
+
+     android:layout_marginTop="5dp"
+          android:layout_marginLeft="15dp"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="اكتوبر"/>
+
+ <TextView
+     android:textSize="15dp"
+
+     android:layout_marginTop="5dp"
+          android:layout_marginLeft="15dp"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="نوفمبر"/>
+
+ <TextView
+     android:textSize="15dp"
+
+     android:layout_marginTop="5dp"
+          android:layout_marginLeft="15dp"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="ديسمبر"/>
+
+      </LinearLayout>
+  </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+
+        <com.jjoe64.graphview.GraphView
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:id="@+id/graphId"
+            />
+        <LinearLayout
+            android:layout_below="@+id/graphId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+        <Button
+
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:background="#00ee76"/>
+
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:textColor="#171717"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="تحت حساب"/>
+
+        <Button
+            android:layout_marginLeft="55dp"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:background="#104e8b"/>
+
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:textColor="#171717"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="اجمالي شيكات"/>
+        </LinearLayout>
+
+        </RelativeLayout>
+    </LinearLayout>
+</FrameLayout>

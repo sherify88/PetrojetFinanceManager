@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_alignParentRight="true"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="  اسم المورد/المقاول :"
+            android:id="@+id/orderId_responseList"/>
+        <TextView
+
+            android:id="@+id/docpoResponseList"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="......."
+            android:layout_marginRight="50dp"
+            android:textSize="20dp"
+
+            />
+        <TextView
+            android:layout_marginRight="5dp"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/orderId_responseList"
+            android:textSize="20dp"
+            android:text="القيمة : "
+            android:id="@+id/kemaList"/>
+        <TextView
+            android:layout_below="@+id/docpoResponseList"
+            android:id="@+id/checkAmountResponseList"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="......."
+            android:textSize="20dp"
+
+            />
+        <TextView
+            android:layout_marginRight="5dp"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/kemaList"
+            android:textSize="20dp"
+            android:text="رقم الشيك : "
+            android:id="@+id/checkNoTxtViewList"/>
+        <TextView
+            android:layout_below="@+id/checkAmountResponseList"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="......."
+            android:textSize="20dp"
+            android:id="@+id/checkNoList"
+
+            />
+        <TextView
+            android:id="@+id/petrojetResponseId"
+            android:layout_marginRight="5dp"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/checkNoTxtViewList"
+            android:textSize="20dp"
+            android:text="رد بتروجت : "/>
+        <TextView
+            android:layout_below="@+id/checkNoList"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="......."
+            android:textSize="20dp"
+            android:id="@+id/checkStatusIdTxtList"
+
+            />
+        <TextView
+            android:id="@+id/responseDate"
+            android:layout_marginRight="5dp"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/petrojetResponseId"
+            android:textSize="20dp"
+            android:text="تاريخ الرد : "/>
+        <TextView
+            android:id="@+id/showResponseFromDB"
+            android:layout_below="@+id/checkStatusIdTxtList"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="......."
+            android:textSize="20dp"
+
+            />
+        <TextView
+            android:id="@+id/delayMSG"
+            android:layout_marginRight="5dp"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/responseDate"
+            android:textSize="20dp"
+            android:text="رسالة التأجيل : "/>
+        <TextView
+            android:id="@+id/showDelayMSG"
+            android:layout_below="@+id/showResponseFromDB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="20dp"
+
+            />
+        <TextView
+            android:id="@+id/delayDate"
+            android:layout_marginRight="5dp"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/delayMSG"
+            android:textSize="20dp"
+            android:text="تاريخ ارسال التأجيل : "/>
+        <TextView
+            android:id="@+id/showDelayResponse"
+            android:layout_below="@+id/showDelayMSG"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="لا يوجد تأجيل"
+            android:textSize="20dp"
+
+            />
+        <Button
+            android:layout_below="@+id/delayDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editResponseBtn"
+            android:text="تعديل الرد بموعد استلام اخر"
+
+            />
+
+    </RelativeLayout>
+
+
+</LinearLayout>

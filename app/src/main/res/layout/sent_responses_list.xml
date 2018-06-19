@@ -1,0 +1,55 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.kesho.petrojetfinancemanager.sentResponsesListFragment"
+    android:background="#f5f5dc">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="قائمة الرسائل المرسلة"
+            android:layout_gravity="center"
+            android:layout_marginRight="7dp"
+            android:textSize="20dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnSearchBycheckNumberResponse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="40dp"
+            android:layout_gravity="left"
+            android:text="بحث" />
+
+        <EditText
+            android:id="@+id/searchEditTextResponse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:lines="1"
+            android:textSize="15dp"
+            android:inputType="number"
+            android:maxLines="1"
+            android:hint="ادخل رقم الشيك باللغة الانجليزية" />
+    </LinearLayout>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sentResponsesList"
+
+
+        >
+
+    </ListView>
+    </LinearLayout>
+
+
+</FrameLayout>

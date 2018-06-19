@@ -1,0 +1,157 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.kesho.petrojetfinancemanager.ResponseFragment"
+    android:background="#f5f5dc"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:id="@+id/txtviewForResponseForCheckNum"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:gravity="right">
+
+            <Button
+                android:layout_marginRight="70dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="check"
+                android:id="@+id/checkAmountBtn"/>
+
+            <EditText
+                android:maxLines="1"
+                android:maxLength="2"
+                android:gravity="right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:id="@+id/dayId"
+                android:hint="اليوم"
+                android:text=""
+                />
+            <TextView
+                android:text="/"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/slashId"
+                />
+
+            <EditText
+                android:maxLines="1"
+                android:maxLength="2"
+                android:gravity="right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:id="@+id/monthId"
+                android:hint="الشهر"
+                android:text=""
+                />
+
+        <TextView
+        android:text="الموعد الذي سيتم ارساله  : "
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:id="@+id/txtViewreceiptDate"
+      />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="right"
+            >
+
+
+        <TextView
+             android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:textColor="#228b22"
+            android:id="@+id/currentAmountCheckerResult" />
+
+            <TextView
+             android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/currentAmountCheckerTxtView"
+                android:textColor="#0d0d0d"
+                android:textStyle="bold"
+                android:textSize="15dp"
+            android:text="اجمالي قيمة الشيكات الحالية لهذا اليوم : "/>
+
+
+        </LinearLayout>
+ <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="right"
+            >
+
+
+        <TextView
+             android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:textColor="#cd5c5c"
+            android:id="@+id/amountCheckerResult" />
+
+            <TextView
+             android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/amountCheckerTxtView"
+                android:textColor="#0d0d0d"
+                android:textStyle="bold"
+                android:textSize="15dp"
+            android:text="اجمالي قيمة الشيكات لهذا اليوم ستصبح  : "/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_marginTop="50dp"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnSendResponse"
+                android:text="ارسال لتحديد موعد"
+                android:background="#00ee00"/>
+        <Button
+            android:layout_marginTop="50dp"
+            android:layout_width="match_parent"
+            android:background="#ff3030"
+            android:layout_height="wrap_content"
+            android:id="@+id/delayOrderbtn"
+            android:text="ارسال للتأجيل"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</FrameLayout>

@@ -1,0 +1,130 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.kesho.petrojetfinancemanager.EditableEachDayChecksListFragment"
+    android:background="#f5f5dc"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_gravity="right"
+    android:gravity="right">
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/actualTotal"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:text=""/>
+    <TextView
+        android:layout_marginRight="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/actualTotalAmounttxtView"
+        android:textStyle="bold"
+        android:textColor="#030303"
+        android:textSize="15dp"
+        android:text="اجمالي المسلم فعليا   :  "/>
+
+
+    <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/totalAmount"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:text=""/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/totalAmounttxtView"
+        android:textStyle="bold"
+        android:textColor="#030303"
+        android:textSize="15dp"
+            android:text="اجمالي قيمة الشيكات   :  "/>
+
+
+</LinearLayout>
+<LinearLayout
+    android:layout_marginTop="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_gravity="right"
+    android:gravity="right">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/dayCreditEditText"
+            android:textSize="20dp"
+            android:textStyle="bold"
+           />
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/dayCreditTxtView"
+        android:textStyle="bold"
+        android:textColor="#030303"
+            android:textSize="20dp"
+            android:text="رصيد اليوم   :  "/>
+
+
+</LinearLayout>
+<LinearLayout
+    android:layout_marginTop="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_gravity="right"
+    android:gravity="right">
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/resultExpression"
+            android:layout_marginRight="30dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:text=""/>
+    <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/creditResult"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:text=""/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/creditResultTxtView"
+        android:textStyle="bold"
+        android:textColor="#030303"
+            android:textSize="20dp"
+            android:text="الناتج   :  "/>
+
+
+</LinearLayout>
+    <ListView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/eachDayList">
+
+    </ListView>
+    </LinearLayout>
+
+</FrameLayout>

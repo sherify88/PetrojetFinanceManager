@@ -1,0 +1,287 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.kesho.petrojetfinancemanager.UnderReviewFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="right"
+        android:gravity="right"
+        >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/counterId"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:textColor="#ee2c2c"
+                />
+        <TextView
+            android:textSize="15dp"
+            android:textColor="#030303"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="عدد الاذون تحت المراجعة   : "
+            />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/downPaymentCounter"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:textColor="#ee2c2c"
+                />
+        <TextView
+            android:textSize="15dp"
+            android:textColor="#030303"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="تشمل تحت الحساب   : "
+            />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/transportationCounter"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:textColor="#ee2c2c"
+                />
+        <TextView
+            android:textSize="15dp"
+            android:textColor="#030303"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="تشمل اعمال نقل   : "
+            />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/mosta5lasCounter"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:textColor="#ee2c2c"
+                />
+        <TextView
+            android:textSize="15dp"
+            android:textColor="#030303"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="تشمل مستخلصات   : "
+            />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/inspectionCounter"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:textColor="#ee2c2c"
+                />
+            <TextView
+                android:textSize="15dp"
+                android:textColor="#030303"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="تشمل تفتيش   : "
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/kemaCounter"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:textColor="#ee2c2c"
+                />
+            <TextView
+                android:textSize="15dp"
+                android:textColor="#030303"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="اذون قيمة   : "
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tasweyaWeSarfCounter"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:textColor="#ee2c2c"
+                />
+            <TextView
+                android:textSize="15dp"
+                android:textColor="#030303"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="تسوية و صرف   : "
+                />
+
+        </LinearLayout>
+ <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/rentalCounter"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:textColor="#ee2c2c"
+                />
+            <TextView
+                android:textSize="15dp"
+                android:textColor="#030303"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ايجارات   : "
+                />
+
+        </LinearLayout>
+<LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/retentionCounter"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:textColor="#ee2c2c"
+                />
+            <TextView
+                android:textSize="15dp"
+                android:textColor="#030303"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="رد مبلغ   : "
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnSearchByPo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="40dp"
+                android:layout_gravity="left"
+                android:text="بحث" />
+
+            <EditText
+                android:id="@+id/searchEditTextReview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:lines="1"
+                android:maxLines="1"
+                android:textSize="15dp"
+                android:inputType="number"
+                android:hint="ادخل رقم امر التوريد باللغة الانجليزية" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnSearchByName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="40dp"
+                android:layout_gravity="left"
+                android:text="بحث" />
+
+            <EditText
+                android:id="@+id/searchByNameEditText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:lines="1"
+                android:maxLines="1"
+                android:textSize="15dp"
+                android:hint="ادخل الاسم " />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/noResults"
+            />
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/usnderReviewListViewId">
+
+        </ListView>
+    </LinearLayout>
+
+</FrameLayout>
